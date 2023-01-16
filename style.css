@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lilita One', cursive;
+}
+
+body {
+    background-color: bisque;
+}
+
+.content {
+    margin: 250px auto;
+    width: 450px;
+    height: 200px;
+    background-color: #fff;
+
+}
+
+.content h1 {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.content p {
+    position: relative;
+    text-align: center;
+    margin: 8px;
+    font-size: 1rem;
+    display: block;
+}
+
+.enter {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    gap: 3px;
+    
+}
+
+input[type="number"]{
+  text-align: center;
+  width: 200px;
+  height: 25px;
+  outline: none;
+}
+
+button {
+    width: 100px;
+    height: 25px;
+    background-color: white;
+    color: skyblue;
+    border: none;
+    text-transform: uppercase;
+    border: 3px solid skyblue;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: skyblue;
+    color: white;
+}
+
+.restart {
+    display: none;
+    margin-top: 45px;
+    position: relative;
+    text-align: center;
+}
+
+.restart a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-size: 1.1rem;
+}
